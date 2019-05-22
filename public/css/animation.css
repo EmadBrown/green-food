@@ -1,0 +1,164 @@
+@keyframes cf4FadeInOut {
+    0% {
+      opacity:1;
+    }
+    17% {
+      opacity:1;
+    }
+    25% {
+      opacity:0;
+    }
+    92% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  #cf4a1 {
+    background: url('img/find-us/1.jpg')  no-repeat center center;
+    background-size: cover;  
+    padding-bottom: 20%;
+    background-size: cover;
+    -webkit-animation-name: example1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 16s; /* Safari 4.0 - 8.0 */
+    animation-name: example1;
+    animation-iteration-count: infinite;
+    animation-duration: 16s;
+}
+
+#cf4a2 {
+  background: url('img/find-us/2.jpg')  no-repeat center center;
+  background-size: cover;  
+  padding-bottom: 20%;
+  background-size: cover;
+  -webkit-animation-name: example2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+  animation-name: example2;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+}
+#cf4a3 {
+  background: url('img/find-us/3.jpg')  no-repeat center center;
+  background-size: cover;  
+  padding-bottom: 20%;
+  background-size: cover;
+  -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 24s; /* Safari 4.0 - 8.0 */
+  animation-name: example3;
+  animation-iteration-count: infinite;
+  animation-duration: 24s;
+}
+#cf4a4 {
+  background: url('img/find-us/4.jpg')  no-repeat center center;
+  background-size: cover;  
+  padding-bottom: 20%;
+  background-size: cover;
+  -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 28s; /* Safari 4.0 - 8.0 */
+  animation-name: example4;
+  animation-iteration-count: infinite;
+  animation-duration: 28s;
+}
+#cf4a5 {
+  background: url('img/find-us/5.jpg')  no-repeat center center;
+  background-size: cover;  
+  padding-bottom: 20%;
+  -webkit-animation-name: example5; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 32s; /* Safari 4.0 - 8.0 */
+  animation-name: example5;
+  animation-iteration-count: infinite;
+  animation-duration: 32s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example1 {
+ 
+   50% {
+    background: url('img/find-us/6.jpg')  no-repeat center center;
+    background-size: cover;    
+ }
+
+}
+
+/* Standard syntax */
+@keyframes example1 {
+   50% {
+    background: url('img/find-us/6.jpg')  no-repeat center center;
+    background-size: cover;    
+ }
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example2 {
+  50% {
+   background: url('img/find-us/7.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Standard syntax */
+@keyframes example2 {
+  50% {
+   background: url('img/find-us/7.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example3 {
+  50% {
+   background: url('img/find-us/8.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Standard syntax */
+@keyframes example3 {
+  50% {
+   background: url('img/find-us/8.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example4 {
+  50% {
+   background: url('img/find-us/9.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Standard syntax */
+@keyframes example4 {
+  50% {
+   background: url('img/find-us/9.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example5 {
+  50% {
+   background: url('img/find-us/10.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}
+
+/* Standard syntax */
+@keyframes example5 {
+  50% {
+   background: url('img/find-us/10.jpg')  no-repeat center center;
+   background-size: cover;    
+}
+
+}

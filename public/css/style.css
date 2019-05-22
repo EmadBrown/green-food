@@ -1,0 +1,127 @@
+body{
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    padding: 0;
+    background-color: rgba(0,0,0,0.28);
+    top: 0;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 1rem;
+    border-radius: 3%;
+}
+
+nav ul li:hover{
+ background-color: rgba(0,0,0,0.3);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-style: normal;
+    color: white; 
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+} 
+
+.jumbotron{
+    height: 70vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron .col{
+  margin-left: 100px;
+  margin-right: 100px; 
+}
+
+  #welcomeSection img{
+    max-width: 80%;
+  }
+
+  #fuelingSection{
+    background: url("img/homepage_products.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #allProductsSection .row .border-3:hover{
+     border: 2px solid green;
+  }
+
+
+
+
+  #allProductsSection img{
+    max-height: 200px;
+  }
+
+  #allProductsSection .col{
+    cursor: pointer;
+    }
+
+  #findUsSection .row .col-sm-3{
+   padding-left: 0px;
+   padding-right: 0px;
+  }
+
+  #blog .blog-photo-cover{
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 25rem;
+  }
+
+  
+  #contact iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+  #footer .row{
+    background-color: rgba(0,0,0,0.28);
+  }
+
+#footer ul{
+  list-style: none;
+}
+
+
+@media (max-width: 960px) {
+  nav ul li a{
+    font-size: 1rem;
+} 
+
+}
+@media (max-width: 768px) {
+    #logo img{
+      max-width: 170px;
+    }
+
+    nav ul li{
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    .jumbotron .col{
+      margin-left: 20px;
+      margin-right: 20px; 
+    }
+
+    #blog .blog-photo-cover{
+      height: 13rem;
+    }
+
+    #contact iframe{
+      padding-top: 50px; 
+    }
+  }
